@@ -1,0 +1,166 @@
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.image-upload .thumb .profilePicPreview {
+  width: 100%;
+  height: 310px;
+  display: block;
+  border: 3px solid #f1f1f1;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-size: cover !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-upload .thumb .profilePicPreview.logoPicPrev {
+  background-size: contain !important;
+  background-position: center;
+}
+.image-upload .thumb .profilePicPreview .remove-image {
+position: absolute;
+top: -9px;
+right: -9px;
+text-align: center;
+width: 55px;
+height: 55px;
+font-size: 24px;
+border-radius: 50%;
+background-color: #df1c1c;
+color: #fff;
+display: none;
+}
+
+.image-upload .thumb .profilePicPreview.has-image .remove-image {
+display: block;
+}
+
+.image-upload .thumb .faviconPreview {
+  width: 100%;
+  height: 150px;
+  display: block;
+  border: 3px solid #f1f1f1;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-size: cover !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-upload .thumb .faviconPreview {
+  background-size: contain !important;
+  background-position: center;
+}
+.image-upload .thumb .faviconPreview .remove-image {
+position: absolute;
+top: -9px;
+right: -9px;
+text-align: center;
+width: 55px;
+height: 55px;
+font-size: 24px;
+border-radius: 50%;
+background-color: #df1c1c;
+color: #fff;
+display: none;
+}
+
+.image-upload .thumb .faviconPreview.has-image .remove-image {
+display: block;
+}
+
+.logoimage-upload .logothumb .logoPreview {
+  width: 100%;
+  height: 150px;
+  display: block;
+  border: 3px solid #f1f1f1;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-size: cover !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.logoimage-upload .logothumb .logoPreview {
+  background-size: contain !important;
+  background-position: center;
+}
+.logoimage-upload .logothumb .logoPreview .logoremove-image {
+position: absolute;
+top: -9px;
+right: -9px;
+text-align: center;
+width: 55px;
+height: 55px;
+font-size: 24px;
+border-radius: 50%;
+background-color: #df1c1c;
+color: #fff;
+display: none;
+}
+
+.logoimage-upload .logothumb .logoPreview.has-image .logoremove-image {
+display: block;
+}
+
+.login_imgimage-upload .login_imgthumb .login_imgPreview {
+  width: 100%;
+  height: 150px;
+  display: block;
+  border: 3px solid #f1f1f1;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-size: cover !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.login_imgimage-upload .login_imgthumb .login_imgPreview {
+  background-size: contain !important;
+  background-position: center;
+}
+.login_imgimage-upload .login_imgthumb .login_imgPreview .login_imgremove-image {
+position: absolute;
+top: -9px;
+right: -9px;
+text-align: center;
+width: 55px;
+height: 55px;
+font-size: 24px;
+border-radius: 50%;
+background-color: #df1c1c;
+color: #fff;
+display: none;
+}
+
+.login_imgimage-upload .login_imgthumb .login_imgPreview.has-image .login_imgremove-image {
+display: block;
+}
